@@ -14,6 +14,7 @@ return require('packer').startup(function(use)
 } 
 
 	use 'shaunsingh/solarized.nvim'
+    use 'lervag/vimtex'
 
 	use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
 	use('/ThePrimeagen/harpoon')
