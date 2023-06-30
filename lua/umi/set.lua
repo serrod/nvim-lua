@@ -24,3 +24,5 @@ vim.opt.scrolloff = 8
 vim.opt.termguicolors = true
 
 vim.opt.updatetime = 50
+
+vim.g.vimtex_view_method = 'zathura'
